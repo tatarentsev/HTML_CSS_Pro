@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-content">
+        <header class="header center">
+            <div class="header__left_side">
+                <a href="index.html"><img src="img/header_logo.svg" alt="logo"></a>
+                <img src="img/header_search.svg" alt="seacrt">
+            </div>
+
+            <div class="header__right_side">
+                <input type="checkbox" name="menu" id="menu">
+
+                <label for="menu" class="menu">
+                    <img src="img/header_menu.svg" alt="">
+                </label>
+
+                <div class="header__gamburger_menu">
+                    <div class="header__gamburger_menu_cross">
+                        <div class="header__gamburger_menu_cros">
+                            <div class="header__gamburger_menu_cros_2">
+        
+                            </div>
+                        </div>
+                    </div>
+
+                        <h3 class="header__gamburger_menu_titul">MENU</h3>
+                        <ul class="header__gamburger_menu_ul"> 
+                            <li class="header__gamburger_menu_titul_of_list">MAN</li>
+                            <li class="header__gamburger_menu_li">Accessories</li>
+                            <li class="header__gamburger_menu_li">Bags</li>
+                            <li class="header__gamburger_menu_li">Denim</li>
+                            <li class="header__gamburger_menu_li">T-Shirts</li>
+                        </ul>
+                        <ul class="header__gamburger_menu_ul"> 
+                            <li class="header__gamburger_menu_titul_of_list">WOMAN</li>
+                            <li class="header__gamburger_menu_li">Accessories</li>
+                            <li class="header__gamburger_menu_li">Jackets & Coats</li>
+                            <li class="header__gamburger_menu_li">Polos</li>
+                            <li class="header__gamburger_menu_li">T-Shirts</li>
+                            <li class="header__gamburger_menu_li">Shirts</li>
+                        </ul>
+                        <ul class="header__gamburger_menu_ul"> 
+                            <li class="header__gamburger_menu_titul_of_list">KIDS</li>
+                            <li class="header__gamburger_menu_li">Accessories</li>
+                            <li class="header__gamburger_menu_li">Jackets & Coats</li>
+                            <li class="header__gamburger_menu_li">Polos</li>
+                            <li class="header__gamburger_menu_li_mb16px">T-Shirts</li>
+                            <li class="header__gamburger_menu_li_mb16px">Shirts</li>
+                            <li class="header__gamburger_menu_li">Bags</li>
+                        </ul>
+                    </div>
+
+                <a href="registration.html">
+                    <img class="header__right_side_account" src="img/header_account.svg" alt="account">
+                </a>
+                <a href="basket.html">
+                    <img class="header__right_side_basket" src="img/header_basket.svg" alt="basket">
+                </a>
+            </div>
+        </header>
+
+        <div class="header__under_side center">
+            <h1 class="header__under_side_titul">SHOPPING CART</h1>
+        </div>
+
+        <div class="basket center">
+            <div class="basket_left">
+                <div class="choice">
+                    <img class="basket_images" src="img/basket_item1.jpg" alt="">
+
+                    <svg class="choice_cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
+                    </svg>
+
+                    <div class="choice-discription">
+                        <p class="choice-discription-titul">MANGO  PEOPLE <br>  T-SHIRT</p>
+
+                        <div class="choice-criteries">
+                            <p class="choice-criteria">Price: <span class="choice-span"> $300</span></p>
+                            <p class="choice-criteria">Color: <span class="choice-span">Red</span></p>
+                            <p class="choice-criteria">Size: <span class="choice-span">XL</span></p>
+                            <form class="choice-criteria">
+                                Quantity: <input class="bord" type="text" value="2" id="bordd">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="choice">
+                    <img class="basket_images" src="img/basket_item2.jpg" alt="">
+
+                    <svg class="choice_cross" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
+                    </svg>
+
+                    <div class="choice-discription">
+                        <p class="choice-discription-titul">MANGO  PEOPLE <br>  T-SHIRT</p>
+
+                        <div class="choice-criteries">
+                            <p class="choice-criteria">Price: <span class="choice-span"> $300</span></p>
+                            <p class="choice-criteria">Color: <span class="choice-span">Red</span></p>
+                            <p class="choice-criteria">Size: <span class="choice-span">XL</span></p>
+                            <form class="choice-criteria">
+                                Quantity: <input class="bord" type="text" value="2" id="borddd">
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="basket-bottom-buttons">
+                    <form class="basket-bottom-buttons-form" action="basket.html">
+                        <input class="basket-bottom-buttons-first" type="submit" value="CLEAR SHOPPING CART">
+                        <input class="basket-bottom-buttons-first-767" type="submit" value="Clear shopping cart">
+                    </form>
+                    <form class="basket-bottom-buttons-form" action="basket.html">
+                        <input class="basket-bottom-buttons-first" type="submit" value="CONTINUE SHOPPING">
+                        <input class="basket-bottom-buttons-first-767" type="submit" value="Continue shopping">
+                    </form>
+                </div>
+            </div>
+
+            <div class="basket_right">
+
+                <div class="shipping-adress">
+                    <p class="shipping-adress-titul">SHIPPING ADRESS</p>
+
+                    <form action="basket.html" class="shipping-adress-form">
+                        <input class="shipping-adress-forms" type="text" placeholder="Bangladesh">
+                    </form>
+
+                    <form action="basket.html" class="shipping-adress-form">
+                        <input class="shipping-adress-forms" type="text" placeholder="State">
+                    </form>
+
+                    <form action="basket.html" class="shipping-adress-form">
+                        <input class="shipping-adress-forms" type="text" placeholder="Postcode / Zip">
+                    </form>
+
+                    <form action="basket.html">
+                        <input class="shipping-adress-button" type="submit" value="GET A QUOTE">
+                        <input class="shipping-adress-button-767" type="submit" value="Get a quote">
+                    </form>
+                </div>
+
+                <div class="total">
+                    <div class="total_titul">
+                        <p class="total_titul_name">SUB TOTAL <span class="total_titul-span">$900</span></p>
+                        <p class="total_titul_discription">GRAND TOTAL <span class="total_titul_discription-span">$900</span></p>
+                        <form class="total_titul_form" action="basket.html">
+                            <input class="total_button" type="submit" value="PROCEED TO CHECKOUT">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__promotion">
+                <img class="footer__promotion_background" src="img/footer_promotion_back.jpg" alt="">
+                <img class="footer__promotion_background_1024" src="img/footer_promotion_back_1024.jpg" alt="">
+                <img class="footer__promotion_background_767" src="img/footer_promotion_back_767.jpg" alt="">
+
+                <div class="footer__promotion_quote_and_subscribe">
+                    <div class="footer__promotion_quote center">
+                        <img src="img/footer_promotion_quote.svg" alt="">
+                        <p class="footer__promotion_quote_discription">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, 
+                            <span class="footer__promotion_quote_discription_italic">a pulvinar purus <br> condimentum“</span>
+                        </p>
+                    </div>
+
+                    <div class="footer__promotion_subscribe center">
+                        <p class="footer__promotion_subscribe_name">SUBSCRIBE</p>
+                        <p class="footer__promotion_subscribe_discription">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form class="footer__promotion_subscribe_buttons" action="basket.html">
+                            <input class="footer__promotion_subscribe_first_button" type="email" placeholder="Enter Your Email">
+                            <input class="footer__promotion_subscribe_second_button" type="submit" value="Subscribe"> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__social_links center">
+                <p class="footer__social_links_date">© 2025  Brand  All Rights Reserved.</p>
+
+                <div class="footer__social_links_icons">
+                    <div class="footer__social_links_icon">
+                        <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z" fill="black"/>
+                        </svg>
+                    </div>
+
+                    <div class="footer__social_links_icon">
+                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.417 3.74052C14.427 3.88264 14.427 4.0248 14.427 4.16692C14.427 8.50192 11.1498 13.4969 5.15986 13.4969C3.31448 13.4969 1.60022 12.9588 0.158203 12.0248C0.420396 12.0552 0.67247 12.0654 0.944752 12.0654C2.46741 12.0654 3.8691 11.5476 4.98843 10.6644C3.5565 10.6339 2.3565 9.68977 1.94305 8.39027C2.14475 8.4207 2.34642 8.44102 2.5582 8.44102C2.85063 8.44102 3.14308 8.40039 3.41533 8.32936C1.92291 8.02477 0.803551 6.70498 0.803551 5.11108V5.07048C1.23715 5.31414 1.74139 5.46642 2.2758 5.4867C1.39849 4.89786 0.823727 3.8928 0.823727 2.75573C0.823727 2.14661 0.985041 1.58823 1.26741 1.10092C2.87077 3.09077 5.28086 4.39023 7.98334 4.53239C7.93293 4.28873 7.90266 4.03495 7.90266 3.78114C7.90266 1.97402 9.35477 0.501953 11.1598 0.501953C12.0976 0.501953 12.9446 0.897891 13.5396 1.53748C14.2757 1.39536 14.9816 1.12123 15.6068 0.745609C15.3648 1.50705 14.8505 2.14664 14.1749 2.5527C14.8304 2.48167 15.4657 2.29889 16.0505 2.04511C15.6069 2.69483 15.0522 3.27348 14.417 3.74052Z" fill="black"/>
+                        </svg> 
+                    </div> 
+                </div>  
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
